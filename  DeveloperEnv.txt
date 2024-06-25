@@ -1,0 +1,33 @@
+Comprehensive Guide to Setting Up My Developer Environment on Linux Parrot OS
+This document outlines the steps taken to set up a developer environment on a Linux system. It includes installations, configurations, customizations, and troubleshooting steps encountered during the process.
+1. Install and Update the System
+    - Update the System:
+      sudo apt update && sudo apt upgrade -y
+2. Install a Text Editor
+    - Install Visual Studio Code:
+      I already have VSCodium pre-installed
+      Configuration:
+        ? Install extensions: Python, Python Debuger, Pylint, Pylance, MySQL, Flutter, django and Dart
+3. Install Version Control System
+    - Install Git:
+       already have git pre-installed
+4. Install Programming Languages and Tools
+Python
+       I already have Python pre-installed
+5. Install Database Systems
+MySQL
+    - Install MySQL:
+      i already have MySQL instaled
+      
+6. Setting Up Virtual Machines
+    - Install VirtualBox:
+      sudo apt install virtualbox -y
+7. Troubleshooting Steps
+    - Dependency Issues:
+        ? Use apt --fix-broken install to resolve broken dependencies.
+
+    - Path Issues:
+        ? Verify paths are correctly spelled.
+Summary
+This guide provides a comprehensive approach to setting up a Linux developer environment. It includes the installation of essential tools and software, and configurations for programming languages and databases. By following these steps, i have created a robust and efficient development setup on my Linux system.
+
